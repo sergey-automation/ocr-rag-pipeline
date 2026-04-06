@@ -46,6 +46,9 @@ scripts/
   RUN_ALL.bat
 README.md
 ```
+## Quick Start
+
+RUN_ALL.bat
 
 ## Pipeline
 
