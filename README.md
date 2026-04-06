@@ -46,6 +46,3 @@ scripts/
   RUN_ALL.bat
 README.md
 
----
-```markdown
-## Pipeline
