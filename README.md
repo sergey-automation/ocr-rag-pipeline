@@ -15,6 +15,12 @@ The tools are optimized for large technical corpora (hundreds of thousands to mi
 
 ---
 
+## Requirements
+
+- Python 3.10+
+
+---
+
 ## Features
 
 - High-speed chunk processing (CPU optimized)
@@ -50,6 +56,17 @@ README.md
 Run full pipeline:
 
 `RUN_ALL.bat`
+
+## Input / Output
+
+Input:
+- OCR text files (.txt)
+
+Output:
+- manifest.jsonl
+- chunks_full.jsonl
+- chunks_cleaned.jsonl
+- chunks_512.jsonl
 
 ## Pipeline
 
