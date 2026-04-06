@@ -34,4 +34,14 @@ The tools are optimized for large technical corpora (hundreds of thousands to mi
 
 ---
 
-## Structure (planned)
+## Structure
+
+```text
+scripts/
+  make_manifest.py
+  make_chunks_full.py
+  chunks_analyze_from_full.py
+  clear_tab_from_analyze.py
+  make_chunks_512_from_cleaned.py
+  RUN_ALL.bat
+README.md
