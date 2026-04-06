@@ -44,22 +44,31 @@ The tools are optimized for large technical corpora (hundreds of thousands to mi
 
 ```text
 scripts/
+  RUN_ALL.bat
+  RUN_MAKE_MANIFEST.bat
+  RUN_MAKE_CHUNKS_FULL.bat
+  RUN_CHUNKS_ANALYZE_FULL.bat
+  RUN_CLEAR_TAB_FROM_ANALIZE.bat
+  RUN_MAKE_CHUNKS_512_FROM_CLEANED.bat
   make_manifest.py
   make_chunks_full.py
   chunks_analyze_from_full.py
   clear_tab_from_analyze.py
   make_chunks_512_from_cleaned.py
-  RUN_ALL.bat
 README.md
 ```
+## Step-by-step execution
+
+1. Build manifest:`scripts/RUN_MAKE_MANIFEST.bat`
+2. Create chunks:`scripts/RUN_MAKE_CHUNKS_FULL.bat`
+3. Analyze chunks:`scripts/RUN_CHUNKS_ANALYZE_FULL.bat`
+4. Clean noisy/table chunks:`scripts/RUN_CLEAR_TAB_FROM_ANALIZE.bat`
+5. Split into 512 chunks:`scripts/RUN_MAKE_CHUNKS_512_FROM_CLEANED.bat`
+
 ## Quick Start
 Run full pipeline:
 
-`python make_manifest.py
-python make_chunks_full.py
-python chunks_analyze_from_full.py
-python clear_tab_from_analyze.py
-python make_chunks_512_from_cleaned.py`
+`scripts/RUN_ALL.bat`
 
 ## Input / Output
 
