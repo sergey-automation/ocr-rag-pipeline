@@ -55,7 +55,11 @@ README.md
 ## Quick Start
 Run full pipeline:
 
-`RUN_ALL.bat`
+`python make_manifest.py
+python make_chunks_full.py
+python chunks_analyze_from_full.py
+python clear_tab_from_analyze.py
+python make_chunks_512_from_cleaned.py`
 
 ## Input / Output
 
