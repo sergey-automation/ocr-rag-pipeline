@@ -48,11 +48,3 @@ README.md
 
 ---
 
-## Pipeline
-
-1. `make_manifest.py` — builds `manifest.jsonl`
-2. `make_chunks_full.py` — creates page-based chunks
-3. `chunks_analyze_from_full.py` — analyzes chunk quality
-4. `clear_tab_from_analyze.py` — cleans noisy/table-heavy chunks
-5. `make_chunks_512_from_cleaned.py` — splits cleaned chunks into smaller parts
-6. `RUN_ALL.bat` — runs the full pipeline
