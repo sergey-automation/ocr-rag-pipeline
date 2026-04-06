@@ -49,8 +49,6 @@ README.md
 
 ---
 
-#### 2. И **Pipeline вынеси наружу**:
-
 ```markdown
 ## Pipeline
 
