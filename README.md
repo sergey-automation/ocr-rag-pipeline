@@ -55,7 +55,6 @@ scripts/
   chunks_analyze_from_full.py
   clear_tab_from_analyze.py
   make_chunks_512_from_cleaned.py
-README.md
 ```
 ## Step-by-step execution
 
@@ -88,4 +87,4 @@ Output:
 3. `chunks_analyze_from_full.py` — analyzes chunk quality
 4. `clear_tab_from_analyze.py` — cleans noisy/table-heavy chunks
 5. `make_chunks_512_from_cleaned.py` — splits cleaned chunks into smaller parts
-6. `RUN_ALL.bat` — runs the full pipeline
+
