@@ -105,7 +105,8 @@ C:\LIB1\_chunks\
 ## Performance
 
  (CPU i5-4570)
--- Chunk generation: ~4200 chunks/sec
+ 
+- Chunk generation: ~4200 chunks/sec
 - Chunk analysis: ~440 chunks/sec (main bottleneck)
 - Chunk splitting (512): ~6600 chunks/sec
 - Tested on ~2.3M pages dataset
