@@ -91,14 +91,14 @@ scripts/RUN_ALL.bat
 
 Output:
 
-C:\LIB1\manifest.jsonl         — file index (from make_manifest.py)
+C:\LIB1\manifest.jsonl  — file index (from make_manifest.py)
 
-C:\LIB1\metadata\              — reports and diagnostics
+C:\LIB1\metadata\       — reports and diagnostics
 
 C:\LIB1\_chunks\
-  chunks_full.jsonl
-  chunks_cleaned_full.jsonl
-  chunks_512.jsonl
+ - chunks_full.jsonl
+ - chunks_cleaned_full.jsonl
+ - chunks_512.jsonl
   
 ## Performance
 
