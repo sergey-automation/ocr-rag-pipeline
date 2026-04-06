@@ -95,7 +95,7 @@ C:\LIB1\
  - manifest.jsonl
    
 C:\LIB1\metadata\
-- reports and diagnostics
+- manifest reports and diagnostics
 
 C:\LIB1\_chunks\
  - chunks_full.jsonl
@@ -109,4 +109,4 @@ C:\LIB1\_chunks\
 - Chunk generation: ~4200 chunks/sec
 - Chunk analysis: ~440 chunks/sec (main bottleneck)
 - Chunk splitting (<512): ~6600 chunks/sec
-- Tested on ~2.3M pages dataset
+- Dataset size: ~2.3M pages (~2.3M chunks input)
