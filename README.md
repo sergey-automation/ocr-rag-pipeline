@@ -81,7 +81,29 @@ Output:
 4. `clear_tab_from_analyze.py` — cleans noisy/table-heavy chunks
 5. `make_chunks_512_from_cleaned.py` — splits cleaned chunks into smaller parts
 
+## Example
+
+Input:
+C:\LIB1\OCR_TXT
+
+Run:
+scripts/RUN_ALL.bat
+
+Output:
+
+C:\LIB1\manifest.jsonl         — file index (from make_manifest.py)
+
+C:\LIB1\metadata\              — reports and diagnostics
+
+C:\LIB1\_chunks\
+  chunks_full.jsonl
+  chunks_cleaned_full.jsonl
+  chunks_512.jsonl
+  
 ## Performance
 
-- ~2.3–2.5 chunks/sec (CPU i5-4570)
-- Scales to millions of chunks
+ (CPU i5-4570)
+-- Chunk generation: ~4200 chunks/sec
+- Chunk analysis: ~440 chunks/sec (main bottleneck)
+- Chunk splitting (512): ~6600 chunks/sec
+- Tested on ~2.3M pages dataset
