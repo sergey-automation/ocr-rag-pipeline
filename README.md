@@ -93,6 +93,7 @@ Output:
 
 C:\LIB1\
  - manifest.jsonl
+   
 C:\LIB1\metadata\
 - reports and diagnostics
 
