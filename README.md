@@ -87,13 +87,15 @@ Input:
 C:\LIB1\OCR_TXT
 
 Run:
-scripts/RUN_ALL.bat
+C:\LIB1\scripts\RUN_ALL.bat
 
 Output:
 
-C:\LIB1\manifest.jsonl  — file index (from make_manifest.py)
+C:\LIB1\manifest.jsonl
+ - file index (from make_manifest.py)
 
-C:\LIB1\metadata\       — reports and diagnostics
+C:\LIB1\metadata\
+- reports and diagnostics
 
 C:\LIB1\_chunks\
  - chunks_full.jsonl
