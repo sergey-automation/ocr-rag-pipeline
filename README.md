@@ -14,13 +14,9 @@ This repository contains a set of Python utilities designed for:
 - Tested on real industrial OCR datasets.
 The tools are optimized for large technical corpora (hundreds of thousands to millions of chunks).
 
----
-
 ## Requirements
 
 - Python 3.10+
-
----
 
 ## Features
 
@@ -30,16 +26,12 @@ The tools are optimized for large technical corpora (hundreds of thousands to mi
 - Statistics and dataset validation
 - Designed for integration with vector search systems (FAISS, HNSW, etc.)
 
----
-
 ## Use Cases
 
 - Technical book indexing
 - Industrial documentation processing
 - RAG pipelines for engineering knowledge bases
 - Large-scale OCR dataset cleanup
-
----
 
 ## Structure
 
@@ -89,3 +81,7 @@ Output:
 4. `clear_tab_from_analyze.py` — cleans noisy/table-heavy chunks
 5. `make_chunks_512_from_cleaned.py` — splits cleaned chunks into smaller parts
 
+## Performance
+
+- ~2.3–2.5 chunks/sec (CPU i5-4570)
+- Scales to millions of chunks
