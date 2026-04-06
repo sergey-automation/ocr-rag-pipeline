@@ -91,9 +91,8 @@ C:\LIB1\scripts\RUN_ALL.bat
 
 Output:
 
-C:\LIB1\manifest.jsonl
- - file index (from make_manifest.py)
-
+C:\LIB1\
+ - manifest.jsonl
 C:\LIB1\metadata\
 - reports and diagnostics
 
