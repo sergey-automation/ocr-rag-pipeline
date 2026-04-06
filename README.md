@@ -10,7 +10,8 @@ This repository contains a set of Python utilities designed for:
 - Chunking large documents into structured segments
 - Detecting low-quality or corrupted chunks
 - Preparing datasets for embedding and retrieval systems
-
+- Designed for large-scale corpora (100K–10M+ chunks).
+- Tested on real industrial OCR datasets.
 The tools are optimized for large technical corpora (hundreds of thousands to millions of chunks).
 
 ---
