@@ -110,3 +110,15 @@ C:\LIB1\_chunks\
 - Chunk analysis: ~440 chunks/sec (main bottleneck)
 - Chunk splitting (<512): ~6600 chunks/sec
 - Dataset size: ~2.3M pages (~2.3M chunks input)
+
+## Next stage
+
+Embedding and vector preparation is implemented in:
+
+https://github.com/sergey-automation/block-embeddings-builder
+
+This includes:
+- block-based embedding computation
+- backend comparison (torch / onnx / openvino)
+- distributed processing and resume support
+
